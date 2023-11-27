@@ -8,8 +8,6 @@ package homework;
  * исключение ArithmeticException. Не забудьте написать тесты для проверки этого поведения.
  */
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 public class Calculator {
     /**
