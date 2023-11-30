@@ -1,4 +1,4 @@
-package homework;
+package homework.Calculator;
 
 /*
  * В классе Calculator создайте метод calculateDiscount,
