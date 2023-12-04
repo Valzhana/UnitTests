@@ -1,3 +1,5 @@
+package homework.seminar1;
+
 import homework.Calculator.Calculator;
 
 import static org.assertj.core.api.Assertions.assertThat;

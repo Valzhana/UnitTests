@@ -1,3 +1,5 @@
+package homework.seminar2;
+
 import homework.DSstore_seminar2.Car;
 import homework.DSstore_seminar2.Motorcycle;
 import homework.DSstore_seminar2.Vehicle;

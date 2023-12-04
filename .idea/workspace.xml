@@ -4,20 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be9c0acd-cc45-4810-9408-c8af43835cfd" name="Changes" comment="added homework_seminar1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/DSstore_seminar2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/DSstore_seminar2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/DSstore_seminar2/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/DSstore_seminar2/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/VehicleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/Calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="be9c0acd-cc45-4810-9408-c8af43835cfd" name="Changes" comment="added homework_seminar2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/seminar3/task1/EvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/seminar3/task2/Interval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar1/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar3/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar3/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar3/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework/seminar3/task1/EvenOddTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework/seminar3/task2/IntervalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminars/seminar1/calculator/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminars/seminar3/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminars/seminar3/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/seminar1/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/seminar2/VehicleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,7 +59,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/Documents/Учебка/Unit-тесты/unit-tests-2 (Условие ДЗ)",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "seminars.seminar3.Product",
+    "last_opened_file_path": "C:/Users/User/Documents/Учебка/Unit-тесты/unit-tests-3 (Условие ДЗ)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -68,22 +72,86 @@
       <recent name="C:\Users\User\IdeaProjects\UnitTests\src\test\java" />
       <recent name="C:\Users\User\IdeaProjects\UnitTests\src\test\java\DSstore_seminar2" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="seminars.seminar3.Product" />
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="homework.seminar3.task2" />
+      <recent name="homework.seminar3.task1" />
+      <recent name="seminars.seminar1.calculator" />
+      <recent name="seminars.seminar3" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CalculatorTest">
-    <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+  <component name="RunManager" selected="JUnit.EvenOddTest">
+    <configuration name="All in UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testAssertArrayEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminars.seminar1.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminars.seminar1.calculator" />
+      <option name="MAIN_CLASS_NAME" value="seminars.seminar1.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="testAssertArrayEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartTest.calculateTotalPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminars.seminar3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminars.seminar3" />
+      <option name="MAIN_CLASS_NAME" value="seminars.seminar3.CartTest" />
+      <option name="METHOD_NAME" value="calculateTotalPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenOddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.seminar3.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework.seminar3.task1" />
+      <option name="MAIN_CLASS_NAME" value="homework.seminar3.task1.EvenOddTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntervalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.seminar3.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework.seminar3.task2" />
+      <option name="MAIN_CLASS_NAME" value="homework.seminar3.task2.IntervalTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,8 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculatorTest" />
-        <item itemvalue="JUnit.VehicleTest" />
+        <item itemvalue="JUnit.EvenOddTest" />
+        <item itemvalue="JUnit.IntervalTest" />
+        <item itemvalue="JUnit.CalculatorTest.testAssertArrayEquals" />
+        <item itemvalue="JUnit.All in UnitTests" />
+        <item itemvalue="JUnit.CartTest.calculateTotalPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701100648854</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added homework_seminar2">
+      <created>1701367751888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701367751888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +213,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added homework_seminar1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homework_seminar1" />
+    <MESSAGE value="added homework_seminar2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homework_seminar2" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UnitTests$IntervalTest.ic" NAME="IntervalTest Coverage Results" MODIFIED="1701704811372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>homework.seminar3.task2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTests$StoreTest.ic" NAME="StoreTest Coverage Results" MODIFIED="1701470959053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminars.seminar3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTests$EvenOddTest.ic" NAME="EvenOddTest Coverage Results" MODIFIED="1701704915360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>homework.seminar3.task1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTests$All_in_UnitTests.ic" NAME="All in UnitTests Coverage Results" MODIFIED="1701526082009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
